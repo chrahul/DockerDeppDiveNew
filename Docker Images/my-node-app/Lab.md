@@ -1,22 +1,4 @@
 
-
-```markdown
-# Docker Image Documentation
-
-## Software Directory Contents
-
-```bash
-$ ls -lrt
-total 44
--rw-r--r--  1 root root   171 Sep 29 09:53 Readme.md
--rw-r--r--  1 root root   132 Sep 29 09:53 Dockerfile
--rw-r--r--  1 root root   476 Sep 29 09:53 deployment.yaml
-drwxr-xr-x  2 root root  4096 Sep 29 09:53 app
--rw-r--r--  1 root root   312 Sep 29 09:53 package.json
--rw-r--r--  1 root root 16721 Sep 29 09:53 package-lock.json
-drwxr-xr-x 60 root root  4096 Sep 29 09:53 node_modules
-```
-
 ## Dockerfile
 
 ```Dockerfile
