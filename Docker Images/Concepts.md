@@ -98,5 +98,5 @@ This command provides detailed information about the image, including its layers
 These concepts should help you understand Docker images and how to work with them effectively.
 
 
-![image](https://github.com/chrahul/DockerDeppDiveNew/assets/14847377/297827c5-1ede-451a-8cdd-a6abaecdac71)
+
 
