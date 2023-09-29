@@ -15,6 +15,7 @@ Before you begin, ensure you have the following prerequisites installed:
 
 1. Initialize a Docker Swarm on the manager node:
 
+
    ```bash
    docker swarm init
    ```
