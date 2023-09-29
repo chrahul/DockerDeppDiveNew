@@ -1,6 +1,6 @@
 # Docker Networking
 
-Docker is a powerful platform for developing, shipping, and running applications in containers. One of the key features of Docker is its networking capabilities, which enable containers to communicate with each other and the external world. This Markdown (`.md`) file provides an overview of Docker networking, including its concepts, default networking modes, and advanced networking options.
+Docker is a powerful platform for developing, shipping, and running applications in containers. One of the key features of Docker is its networking capabilities, which enable containers to communicate with each other and the external world. Here I'm going to  provide you an overview of Docker networking, including its concepts, default networking modes, and advanced networking options.
 
 ## Table of Contents
 
