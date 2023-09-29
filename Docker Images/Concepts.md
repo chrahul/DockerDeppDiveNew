@@ -18,6 +18,10 @@ So, in simple words, these packages are very focused on making one program work,
 #  Docker Image Creation process
 ![image](https://github.com/chrahul/DockerDeppDiveNew/assets/14847377/a9a188b4-c740-4a59-85a9-ef84424af918)
 
+# Creating a Docerfile
+![image](https://github.com/chrahul/DockerDeppDiveNew/assets/14847377/95802fba-0c0e-467e-aead-5a407698d988)
+
+
 
 ## Image Sizes
 
