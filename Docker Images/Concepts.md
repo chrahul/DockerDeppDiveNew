@@ -22,6 +22,11 @@ So, in simple words, these packages are very focused on making one program work,
 ![image](https://github.com/chrahul/DockerDeppDiveNew/assets/14847377/95802fba-0c0e-467e-aead-5a407698d988)
 
 
+# Docker Images are layerd
+
+![image](https://github.com/chrahul/DockerDeppDiveNew/assets/14847377/f187ba71-e052-4b5b-b88e-065e11c72093)
+
+
 
 ## Image Sizes
 
