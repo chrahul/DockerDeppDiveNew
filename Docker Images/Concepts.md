@@ -15,6 +15,10 @@ These packages also don't have something called a "kernel," which is like the br
 
 So, in simple words, these packages are very focused on making one program work, and they don't have extra stuff or their own brain. They only have what's necessary for that program to run.
 
+#  Docker Image Creation process
+![image](https://github.com/chrahul/DockerDeppDiveNew/assets/14847377/a9a188b4-c740-4a59-85a9-ef84424af918)
+
+
 ## Image Sizes
 
 The official Alpine Linux Docker image is incredibly tiny at around 5MB, showcasing how small Docker images can be. In comparison, the official Ubuntu Docker image is larger at about 40MB, but both are stripped down to only include what's essential.
