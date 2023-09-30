@@ -104,12 +104,3 @@ To remove the associated volume:
 $ docker volume rm myvol2
 ```
 
-## Sharing Data Between Machines
-
-Sharing data between Docker hosts can be achieved by using Docker Swarm or Kubernetes, which provide mechanisms for distributing data across a cluster of machines.
-
-For more information on Docker storage, refer to the [official Docker documentation](https://docs.docker.com/storage/).
-
-```
-
-You can copy and paste this Markdown content into a GitHub Markdown (`.md`) file in your repository to create documentation about Docker storage. Make sure to format it as needed and add any additional sections or formatting as per your requirements.
