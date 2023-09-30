@@ -1,4 +1,4 @@
-To create a GitHub Markdown (`.md`) file based on the information provided about Docker storage, you can follow this structure:
+
 
 ```markdown
 # Docker Storage
