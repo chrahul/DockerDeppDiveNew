@@ -1,6 +1,5 @@
 
 
-```markdown
 # Docker Storage
 
 ## Introduction
