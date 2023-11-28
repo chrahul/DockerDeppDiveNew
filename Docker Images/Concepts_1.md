@@ -66,6 +66,10 @@ Here's a breakdown of Docker image layers:
 ![image](https://github.com/chrahul/DockerDeppDiveNew/assets/14847377/eb3ae8b1-1166-4f6d-aa8b-26943ef9db76)
 
 
+
+![image](https://github.com/chrahul/DockerDeppDiveNew/assets/14847377/e043204b-eb66-45c2-956c-0d83c45e70c2)
+
+
 As layers are added, the Docker image is essentially a stack of all these layers. Importantly, the order in which layers are added matters. If there are conflicts, where the same file exists in multiple layers, the file in the topmost layer takes precedence.
 
 Docker utilizes a storage driver (e.g., overlay2, devicemapper, btrfs, or zfs) to manage and present these layers as a cohesive, unified filesystem or image.
