@@ -1,4 +1,4 @@
-Certainly! A Dockerfile is a script that contains a set of instructions for building a Docker image. These instructions are executed in order, and each instruction adds a new layer to the image. Dockerfiles are used to automate the process of creating Docker images, making it easier to share and deploy applications in a consistent and reproducible way.
+A Dockerfile is a script that contains a set of instructions for building a Docker image. These instructions are executed in order, and each instruction adds a new layer to the image. Dockerfiles are used to automate the process of creating Docker images, making it easier to share and deploy applications in a consistent and reproducible way.
 
 Here's a simple example of a Dockerfile for a Node.js application:
 
