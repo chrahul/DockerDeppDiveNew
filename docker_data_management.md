@@ -11,6 +11,17 @@ For non-persistent data, each Docker container is assigned its own storage, tigh
 
 Since each container has its writable container layer, multiple containers can share access to the same underlying image while maintaining their own data state.
 
+![image](https://github.com/chrahul/DockerDeppDiveNew/assets/14847377/ae426877-c839-4288-b158-4f6565e928f1)
+
+
+The major difference between a container and an image is the top writable layer. All writes to the container that add new or modify existing data are stored in this writable layer. When the container is deleted, the writable layer is also deleted. The underlying image remains unchanged.
+
+Because each container has its own writable container layer, and all changes are stored in this container layer, multiple containers can share access to the same underlying image and yet have their own data state.
+
+![image](https://github.com/chrahul/DockerDeppDiveNew/assets/14847377/016e2185-ba0c-45ab-9626-925332a6ae75)
+
+
+
 ### Persistent Data
 
 Persistent data includes crucial information that needs to be retained, such as customer records, financial data, research results, audit logs, and specific application log data. Docker provides solutions for both persistent and non-persistent data.
