@@ -1,0 +1,34 @@
+
+# Docker Data Management
+
+## Introduction
+
+In the realm of cloud-native and microservices applications, stateful applications that persist data play a crucial role. This chapter explores how Docker handles applications dealing with persistent and non-persistent data.
+
+### Non-Persistent Data
+
+For non-persistent data, each Docker container is assigned its own storage, tightly coupled with the container's lifecycle. This storage is automatically created and linked to the writable container layer. Changes made within the container are stored in this layer. However, deleting the container also deletes the storage and associated data.
+
+Since each container has its writable container layer, multiple containers can share access to the same underlying image while maintaining their own data state.
+
+### Persistent Data
+
+Persistent data includes crucial information that needs to be retained, such as customer records, financial data, research results, audit logs, and specific application log data. Docker provides solutions for both persistent and non-persistent data.
+
+#### Volumes
+
+- **Definition:** Volumes are external storage entities in Docker that exist independently of the container lifecycle.
+- **Shared Access:** Multiple containers can share access to the same underlying image while preserving their own distinct data state within volumes.
+- **Data Retention:** Volumes persist even if the associated container is removed, ensuring that essential data is retained beyond the lifespan of individual containers.
+
+#### Examples of Persistent Data Use Cases
+
+- *Customer Records:* Storing customer information that needs to persist across container restarts.
+- *Financial Data:* Maintaining financial records that are critical and should survive the container's lifecycle.
+- *Audit Logs:* Preserving audit logs for compliance and analysis purposes.
+
+By leveraging volumes for persistent data and the container layer for non-persistent data, Docker provides a flexible and scalable approach to managing different types of data in containerized applications. This separation enables efficient handling of both disposable and valuable data.
+
+```
+
+You can copy and paste this content into a new Markdown file (e.g., `docker_data_management.md`) and then commit it to your GitHub repository.
