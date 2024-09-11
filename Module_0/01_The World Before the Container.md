@@ -1,5 +1,10 @@
 ## **Module 0: The World Before the Container** for your Docker blog series:
 
+
+
+![image](https://github.com/user-attachments/assets/973254e2-057d-4543-b3a0-0177c3f49161)
+
+
 ---
 
 ### **Module 0: The World Before the Container**
