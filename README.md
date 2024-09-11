@@ -1,4 +1,4 @@
-Here I am going to discuss Docker, it will be module-by-module breakdown of Docker topics for your blog/tutorials/Labs series, from basics to advanced concepts. 
+Here I am going to discuss Docker, it will be module-by-module breakdown of Docker topics for my blog/tutorials/Labs series, from basics to advanced concepts. 
 This approach will ensure you cover every critical aspect of Docker, engaging both beginners and experienced engineers:
 
 ![image](https://github.com/user-attachments/assets/bb068db0-681f-4eac-869c-7b6ac1031fbe)
